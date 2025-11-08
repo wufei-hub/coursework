@@ -1,0 +1,13 @@
+可以选择所有适配的分词器，只要支持英语和德语的都可以。
+这里我们选择Hugging Face 上 Helsinki-NLP/opus-mt-de-en
+这是一个专门用于 德语 → 英语（De→En）翻译 的预训练 Transformer 模型
+
+/opt/data/private/models/tokenizer/
+├── config.json
+├── pytorch_model.bin
+├── tokenizer_config.json
+├── source.spm
+├── target.spm
+└── vocab.json
+
+
